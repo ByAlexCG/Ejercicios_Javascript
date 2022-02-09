@@ -34,3 +34,4 @@ else if (segundoCosto >= 100000) {
 else {
     console.log("No tiene descuento")
 }
+
