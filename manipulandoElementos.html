@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando Elementos</title>
+    <link rel="stylesheet" href="css/manipulandoElementos.css">
+    <script src="javascript/manipulandoElementos.js"></script>
+</head>
+<body>
+    <img class="img-principal" src="img/Byodo-en el templo. Kyoto, Japón lugares hermosos fondos y wallpapers.jpg" alt="">
+    <h3>Al dar click sobre la imagen, llamamos una funcion para desaparecela.</h3>
+    <img id="uno" src="img/apex-legends-fuse.jpg" onclick="hacer_invisible();">
+    <h3>intercambiando imagenes haciendo mouseover</h3>
+    <img id="dos" src="img/Apex_Thumbnail_Season_5_Legend_Loba_1p.jpg" onmouseover="intercambiar();" >
+    <h3>intercambiando imagenes con mouseover utilizando parametros</h3>
+    <img id="tres" src="img/crypto-el-nuevo-personaje-que-podras-usar-el-nuevo-mapa.jpg" onmouseover="interConArg(id, 'img/apex-legends-fuse.jpg' " >
+
+</body>
+</html>
